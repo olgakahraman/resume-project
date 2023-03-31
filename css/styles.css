@@ -1,0 +1,74 @@
+body {
+  background-color: #e5e5e5;
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #161d2a;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-content {
+  padding: 88px;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 22px;
+}
+.project-item {
+  background-color: yellow;
+}
+.my-profession {
+  margin-bottom: 18px;
+}
+.sidebar {
+  max-width: 370px;
+  background-color: #f0ebfe;
+  padding-bottom: 40px;
+}
+.my-photo {
+  margin-top: 40px;
+}
+.contacts-container p {
+  margin: 0;
+}
+.contact-type {
+  margin: 0 8px 8px 0;
+}
+.contacts-container,
+.tech-skills-container,
+.soft-skills-container,
+.languages {
+  margin: 48px 0 0 40px;
+}
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+.list {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+.list-item {
+  color: #6d9bf5;
+}
+.list-text {
+  color: #161d2a;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 24px;
+}
