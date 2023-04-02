@@ -21,17 +21,19 @@
       <!-- Main contant -->
       <div class="main-content">
         <!-- About me -->
-        <div>
+        <div class="about-me-container">
           <h2 class="my-profession">Front-End Developer</h2>
-          <h1>OLGA DIETIUK KAHRAMAN</h1>
-          <p>
+          <h1 class="my-name">OLGA DIETIUK KAHRAMAN</h1>
+          <p class="my-description">
             Hi, my name is Olga and I am an aspiring frontend developer. I
             started my coding journey in October 2022. I strive to explore a new
             career path where I can showcase my skills and passions. I enjoy
             taking on new challenges and thinking outside the box to accomplish
             the impossible. Currently I've just finished my Dictionary React
-            App.</p> 
-            <p>Basically I've been working on landing pages(HTML,CSS),
+            App.
+          </p>
+          <p class="my-description">
+            Basically I've been working on landing pages(HTML,CSS),
             multiple-pages websites(HTML, CSS, JavaScript, Bootstrap,
             Flexbox&Grid), Portfolio(HTML, CSS), Vanilla Javascript Weather
             Application(HTML ,CSS, JS, Bootstrap, API, Git and GitHub, included
@@ -40,66 +42,102 @@
           </p>
         </div>
         <!-- My projects -->
-        <div>
-          <h3>Projects</h3>
-          <ol>
+        <div class="projects-container">
+          <h3 class="main-content-title">Projects</h3>
+          <ol class="project-list">
             <li class="project-item">
-              <a href="/">World Clock</a>...................[ HTML5, CSS3 ]
-            </li>
-            <li>
-              <a href="/">Dictionary App</a>................[ JavaScript ]
-            </li>
-            <li>
-              <a href="/">Weather App</a>...................[ React.js, Node.js
-              ]
+              <a href="/" class="project-item-link">World Clock</a
+              ><span class="project-item-descr"
+                >..........................................[ HTML5, CSS3,
+                moment.js ]</span
+              >
             </li>
             <li class="project-item">
-              <a href="/">Weather React App</a>...........[ React.js, Node.js ]
+              <a href="/" class="project-item-link">Dictionary App</a
+              ><span class="project-item-descr"
+                >....................................[ React.js, API, ]</span
+              >
+            </li>
+            <li class="project-item">
+              <a href="/" class="project-item-link">Weather App</a
+              ><span class="project-item-descr"
+                >........................................[ JavaScript,
+                Bootstrap, API ]</span
+              >
+            </li>
+            <li class="project-item">
+              <a href="/" class="project-item-link">Weather React App</a
+              ><span class="project-item-descr"
+                >........................[ React.js, API ]</span
+              >
             </li>
           </ol>
         </div>
         <!-- Work experience -->
-        <div>
-          <h3>Work Experience</h3>
+        <div class="work-experience-container">
+          <h3 class="main-content-title">Work Experience</h3>
           <!-- Company 1 -->
-          <div>
-            <h2>Trade Manager ALTUN TEXTILE</h2>
+          <div class="work-experience-place">
+            <h2 class="work-experience-position">
+              Trade Manager
+              <span class="work-experience-company">ALTUN TEXTILE</span>
+            </h2>
 
-            <p>May 2019 - up to now | Bursa, Turkey</p>
-            <ul>
-              <li>Pre-sales and post-sales assistance</li>
-              <li>Negotiation of terms and contracts with clients</li>
+            <p class="work-period">May 2019 - up to now | Bursa, Turkey</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">Pre-sales and post-sales assistance</li>
+              <li class="work-duties">
+                Negotiation of terms and contracts with clients
+              </li>
             </ul>
           </div>
           <!-- Company 2 -->
-          <div>
-            <h2>Trade Manager Eyo Trade Company</h2>
-            <p>October 2016 - February 2019 | Yiwu, Zhejiang, China</p>
-            <ul>
-              <li>Negotiating prices, terms of delivery and payment</li>
-              <li>
+          <div class="work-experience-place">
+            <h2 class="work-experience-position">
+              Trade Manager
+              <span class="work-experience-company">Eyo Trade Company</span>
+            </h2>
+            <p class="work-period">
+              October 2016 - February 2019 | Yiwu, Zhejiang, China
+            </p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Negotiating prices, terms of delivery and payment
+              </li>
+              <li class="work-duties">
                 Identify manufacturers and suppliers of electronic products
               </li>
             </ul>
           </div>
           <!-- Company 3 -->
-          <div>
-            <h2>English Instructor Portofino Children Center</h2>
-            <p>September 2014 - July 2016 | Shenzhen, Guangdong, China</p>
-            <ul>
-              <li>Planning lessons and interactive multimedia games</li>
-              <li>Provide feedback for parents</li>
+          <div class="work-experience-place">
+            <h2 class="work-experience-position">
+              English Instructor
+              <span class="work-experience-company"
+                >Portofino Children Center</span
+              >
+            </h2>
+            <p class="work-period">
+              September 2014 - July 2016 | Shenzhen, Guangdong, China
+            </p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Planning lessons and interactive multimedia games
+              </li>
+              <li class="work-duties">Provide feedback for parents</li>
             </ul>
           </div>
         </div>
         <!-- Education -->
         <div>
-          <h3>Education</h3>
+          <h3 class="main-content-title">Education</h3>
           <!-- University -->
           <div>
-            <h2>Institute of Oriented Studies and International Relations</h2>
+            <h2 class="education-place">
+              Institute of Oriented Studies and International Relations
+            </h2>
             <h2>Specialist</h2>
-            <p>2008 - 2012 | Kharkiv, Ukraine</p>
+            <p class="education-period">2008 - 2012 | Kharkiv, Ukraine</p>
           </div>
         </div>
       </div>
@@ -150,9 +188,7 @@
         </div>
         <!-- Tech Skills -->
         <div class="tech-skills-container">
-          <h3 class="sidebar-title">
-            <span class="list-text">Tech Skills</span>
-          </h3>
+          <h3 class="sidebar-title">>Tech Skills</h3>
           <ul class="list">
             <li class="list-item"><span class="list-text">HTML</span></li>
             <li class="list-item"><span class="list-text">CSS</span></li>

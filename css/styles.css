@@ -10,26 +10,121 @@ body {
   background-color: #ffffff;
   max-width: 1200px;
   margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .main-content {
   padding: 88px;
 }
-h1 {
-  font-size: 45px;
+.main-content-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: 000000;
+  margin: 0 0 8px 0;
 }
+
 h2 {
   font-size: 20px;
 }
-h3 {
-  font-size: 22px;
+
+.my-profession {
+  font-style: narmal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 18px 0;
+}
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+.my-description {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.about-me-container {
+  margin-bottom: 64px;
+}
+
+/* projects */
+.projects-container {
+  margin-bottom: 48px;
 }
 .project-item {
-  background-color: yellow;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
 }
-.my-profession {
-  margin-bottom: 18px;
+.project-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
 }
+.project-list {
+  padding: 0 0 0 15px;
+  margin: 0;
+}
+.project-item-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* work experience */
+.work-experience-container {
+  margin-bottom: 44px;
+}
+.degree,
+.work-experience-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+.education-place,
+.work-experience-company {
+  color: #6d9bf5;
+}
+.education-period,
+.work-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ababab;
+  margin: 12px 0 8px 0;
+}
+.work-duties {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.work-duties-list {
+  padding: 0 0 0 14px;
+  margin: 0;
+}
+
+/* sidebar */
 .sidebar {
   max-width: 370px;
   background-color: #f0ebfe;
