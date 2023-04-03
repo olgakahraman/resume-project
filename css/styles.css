@@ -193,3 +193,16 @@ main h2 {
   font-size: 14px;
   line-height: 24px;
 }
+footer{
+  margin:20px auto;
+  text-align: center;
+  opacity:0.5;
+}
+footer a{
+  text-decoration: none;
+  color:#005fff;
+  transition:all 20ms ease-in-out;
+}
+footer a:hover{
+  text-decoration: underline;
+}
