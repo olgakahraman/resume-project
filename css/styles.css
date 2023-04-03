@@ -25,7 +25,7 @@ body {
   margin: 0 0 8px 0;
 }
 
-h2 {
+main h2 {
   font-size: 20px;
 }
 
@@ -72,8 +72,12 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  text-decoration-line: underline;
+  text-decoration: none;
   color: #005fff;
+}
+.project-item-link:hover{
+  text-decoration: underline;
+
 }
 .project-list {
   padding: 0 0 0 15px;
@@ -102,6 +106,8 @@ h2 {
 .education-place,
 .work-experience-company {
   color: #6d9bf5;
+  margin: 20px 0 0 0;
+  font-size: 16px;
 }
 .education-period,
 .work-period {
@@ -118,10 +124,11 @@ h2 {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+
 }
 .work-duties-list {
   padding: 0 0 0 14px;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
 /* sidebar */
@@ -136,8 +143,24 @@ h2 {
 .contacts-container p {
   margin: 0;
 }
+.contacts-container a{
+  text-decoration: none;
+  color:#161d2a;
+}
+.contacts-container a:hover{
+  text-decoration: underline;
+  color:#005fff;
+ 
+}
 .contact-type {
   margin: 0 8px 8px 0;
+  font-size: 22px;
+  transition:all 200ms ease-in-out;
+}
+.contact-type:hover{
+  color:#005fff;
+  transform:scale(3);
+
 }
 .contacts-container,
 .tech-skills-container,
