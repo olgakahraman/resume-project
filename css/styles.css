@@ -156,7 +156,7 @@ main h2 {
 }
 .contact-type i{
   margin: 0 8px 8px 0;
-  font-size: 22px;
+  
    transition:all 200ms ease-in-out;
 }
 .contact-type i:hover{
@@ -164,6 +164,12 @@ main h2 {
    transform: scale(1.2);
  
 
+}
+.smaller {
+  font-size: 25px;
+}
+.bigger{
+  font-size: 22px;
 }
 .contacts-container,
 .tech-skills-container,
