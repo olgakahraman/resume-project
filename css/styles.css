@@ -133,15 +133,18 @@ main h2 {
 
 /* sidebar */
 .sidebar {
-  max-width: 370px;
+  width: 370px;
   background-color: #f0ebfe;
-  padding-bottom: 40px;
+  padding-top:40px;
+ 
 }
-.my-photo {
-  margin-top: 40px;
+.contacts-container{
+  width:500px;
+  
 }
 .contacts-container p {
   margin: 0;
+
 }
 .contacts-container a{
   text-decoration: none;
